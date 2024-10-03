@@ -1,0 +1,53 @@
+# Code style guide
+
+We follow the [tidyverse style guide](https://style.tidyverse.org/).
+
+## Naming
+
+### General principles
+Good names are **human-readable**: they are descriptive and easy to read and understand what this thing is.
+
+Good names are also **machine-readable** and programming-friendly:
+
+* Use only letters, numbers, and "_" or "-"
+* Use informative prefixes and suffixes to "tag" related files or objects
+* Use a consistent naming system when naming a group of related files or objects
+
+### File names
+
+In addition to the above, file names should have a numerical prefix if the files are scripts that need to be run in a certain order.
+
+### Object names
+
+Use **snake case** to name objects: lowercase letters and numbers, with words separated by "_".
+
+Use **nouns** to refer to variables, and **verbs** to refer to functions.
+
+Do not name your variable something that is already a common function or object in R. E.g. do not name your variable `TRUE`!
+
+## Documentation
+All scripts should start with the following header:
+```{r eval=FALSE}
+#===============================================================================
+# Title:
+# Date created:
+# Author(s):
+# Contributors(s):
+#
+# Purpose:
+#
+# Notes:
+#===============================================================================
+```
+
+Comment your code so that it is easy for others (and future you!) to understand.
+
+Use commented lines to visually break up your script into separate sections.
+
+### Code flow
+Load all necessary packages at the beginning of your script.
+
+In functions, use explicit return i.e. `return()`. This differs from tidyverse guidance but offers greater clarity on what the function specifically returns.
+
+
+

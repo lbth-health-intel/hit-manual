@@ -1,0 +1,24 @@
+# Working in GitHub
+
+We use GitHub to work collaboratively and to maintain visibility of what each team member is currently working on. 
+
+## Why do we need collaborative coding practices?
+
+1. It ensures that we don't duplicate work, e.g. two people picking up the same Issue.
+2. It helps avoid merge conflicts, by giving the visibility required to avoid working on the same parts of the same scripts at the same time.
+3. It improves code quality and helps us catch bugs before they hit production, through embedding code review into our workflow.
+4. It creates an audit trail both for ourselves and for others so that we have a record of any discussions that we have had on specific issues, what was concluded, and what actions were taken forward from that.
+
+## How we use GitHub
+All development occurs in a **shared GitHub repo** where all our code is hosted. We work in the open with each other and nobody keeps their code hidden away from other team members in a private location.
+
+We use **GitHub Issues** to log and track all issues, including bugs, requests for new features, and wild ideas for the future(!). We discuss our thoughts in each Issue's comments, and record any offline conversations here too for current and future reference.
+
+We use **GitHub Project** to track our current development priorities and organise future priorities. It is populated by Issues which are automatically pulled into Project and organised by assignee. We keep our respective assigned Issues updated, e.g. by marking them as "In Progress" or "Complete" as necessary, so that we all have full visibility of what we're all working on.
+
+
+
+## Links for EDITH
+GitHub repo: [lbth-health-intel/edith](https://github.com/lbth-health-intel/edith)
+
+GitHub Project: [EDITH Planning](https://github.com/orgs/lbth-health-intel/projects/1)

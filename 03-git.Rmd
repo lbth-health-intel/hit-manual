@@ -1,0 +1,25 @@
+# Git workflow
+
+We follow the **feature branch** workflow. An overview can be found here: [Git Feature Branch Workflow (Atlassian)](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+
+The core of this is that a separate **feature branch** is created to contain each separate piece of work, and that the work is formally **reviewed** by another team member via a **pull request** before the changes are merged into **dev** and eventually **main**.
+
+ <span style="color:red">Do not ever push any changes directly to **dev** or to **main**!</span>
+
+## Branching strategy
+
+**feature branch** - an individual working branch for each discrete piece of work, e.g. _one_ bug fix or _one_ new feature.
+
+**dev** - the overall working branch where active development occurs. Feature branches are created off **dev** and merged back into **dev** when they are complete. 
+
+**main** - stable version of the code. We only ever push to **main** from **dev**, and only ever at the end of a development cycle when we are confident that the code is working correctly.
+
+## Workflow
+
+1. Identify a single discrete issue to work on. If it's an existing item in our GitHub issues, **assign** the issue to yourself so other team members know you're working on this. If it's not already in the GitHub Issues, open a new GitHub Issue with a clear description of the problem/request and a brief outline of your planned solution, and **assign** the issue to yourself.
+2. Create a **feature branch** from **dev** to contain your work for this issue. Give your branch a descriptive name.
+3. Do your development work, making small and discrete commits along the way, with clear and concise commit messages.
+4. When your work is complete, open a pull request to merge the changes from your **feature branch** into **dev**. Request a reviewer - this may be any other team member. 
+5. Work together with your reviewer to integrate any necessary changes to your code.
+6. When your reviewer is happy with the code, they must **approve** your PR.
+7. Once your PR has been approved, you may merge your changes into **dev** and delete your feature branch.

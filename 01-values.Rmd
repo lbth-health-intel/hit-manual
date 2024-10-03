@@ -1,0 +1,25 @@
+# Our values
+
+We are committed to a set of shared values and principles which guide our ways of working.
+
+## We take pride in our work.
+We believe in the importance of writing good code which is maintainable, scalable, and well-documented.
+
+We believe in doing things right the first time and not leaving ourselves a growing pile of technical debt to deal with "later".
+
+We hold on to this principle even in the face of external pressures to deliver more things faster.
+
+## We help each other learn.
+We take code review seriously, not only to catch bugs and to ensure the quality of the code base, but also to provide peer feedback and support to help each of us learn and become better coders.
+
+We do not simply approve pull requests and do a silent refactor later because "it will be faster if I just do it myself"! We take the time to teach each other and provide each other with the opportunity to learn.
+
+## We are kind to each other.
+We express feedback kindly and constructively in all settings including code review, Issue discussions, and team meetings. We are respectful of each other's opinions, even if we disagree.
+
+## We are honest with each other.
+We openly share our ideas and opinions with each other. We engage in discussions sincerely and offer our honest opinion when asked.
+
+We don't shy away from disagreement, because we appreciate the value of different opinions and because we know that our eventual shared conclusion will be stronger having gone through rigorous discussion.
+
+

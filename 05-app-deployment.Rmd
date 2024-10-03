@@ -1,0 +1,27 @@
+# App deployment
+
+Apps are deployed on [shinyapps.io](https://login.shinyapps.io/).
+
+We maintain several deployments of the EDITH dashboard.
+
+## Active deployments
+### /edith
+Deployed from **main**.
+
+This is our main site for our latest stable version released into the world.
+
+### /edith_testing
+Deployed from **dev** during testing periods.
+
+This is our testing site where we deploy latest features which may not yet have had all the bugs worked out. We use this for conducting user testing (and possibly make it publicly visible to keen beans outside of our testing group who are interested in having access to new features in development).
+
+### /edith_dev
+Deployed from **dev** on a sporadic, ad-hoc basis for internal testing.
+
+This is our internal-only site accessible to the EDITH development team only where we can deploy directly from dev whenever we like to to try out untested features without affecting our users.
+
+ 
+## Archival deployments
+After each release, we create an archival deployment with the naming structure "/edith_[version name]" so we retain copies of the apps as they were deployed at different points in time so we can go back and look at them in future if we need to.
+
+We also retain copies of the full app files as at deployment in an archival SharePoint folder.

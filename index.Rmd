@@ -1,0 +1,18 @@
+--- 
+title: "The HIT Manual"
+author: "Hannah Choi"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: book
+link-citations: yes
+github-repo: lbth-health-intel/hit-manual
+description: "This is a manual of our collaborative coding practices in the Tower Hamlets Health Intelligence Team."
+---
+
+# Introduction {-}
+
+This book lays out our ways of working together with regard to collaborative coding in the Tower Hamlets Health Intelligence Team.
+
+It is written in **Markdown** using the **bookdown** package.
+

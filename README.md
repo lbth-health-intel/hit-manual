@@ -1,0 +1,1 @@
+This is the HIT Manual, a guide which sets out the Health Intelligence Team's ways of working together, particularly with regard to projects involving collaborative coding.
