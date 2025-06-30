@@ -10,6 +10,7 @@ rmd_files:
     "index.Rmd",
     
     "about.Rmd",
+    "about-tools.Rmd",
     "about-values.Rmd",
     
     "02-github.Rmd",

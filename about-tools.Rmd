@@ -1,0 +1,20 @@
+# Our tools
+
+## R
+
+We do the vast majority of our analytical work using the R programming language.
+
+We are big fans of the [tidyverse](https://www.tidyverse.org/) packages, as well as the fantastic [PHEindicatormethods](https://github.com/ukhsa-collaboration/PHEindicatormethods) package originally developed by Public Health England and now maintained by OHID.
+
+## SQL
+
+We use SQL for querying electronic health record datasets that we have access to, including:
+
+* The East London Database, provided by the Clinical Effectiveness Group at Queen Mary, University of London
+* The PHM Linked Data, provided by North East London Integrated Care Board
+
+## git and GitHub
+
+We use git for version control, particularly for collaborative coding projects. Our remotes are hosted on GitHub.
+
+We use GitHub for project management, issue tracking, and code review.
