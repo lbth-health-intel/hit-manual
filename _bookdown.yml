@@ -14,8 +14,8 @@ rmd_files:
     "about-values.Rmd",
     
     "collab.Rmd",
-    "02-github.Rmd",
-    "03-git.Rmd",
+    "collab-github.Rmd",
+    "collab-git.Rmd",
     
     "standards.Rmd",
     "standards-styleguide.Rmd",
