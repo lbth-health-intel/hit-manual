@@ -13,6 +13,7 @@ rmd_files:
     "about-tools.Rmd",
     "about-values.Rmd",
     
+    "collab.Rmd",
     "02-github.Rmd",
     "03-git.Rmd",
     

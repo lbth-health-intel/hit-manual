@@ -1,0 +1,13 @@
+# (PART\*) Collaborative Coding {.unnumbered}
+
+# Why do we need collaborative coding practices?
+
+While we mostly work on individual projects, there are instances where we work together on projects e.g. EDITH where we are all contributing to a shared codebase.
+
+For these projects, it is important that we follow collaborative coding practices to maintain visibility and version control:
+
+1. It ensures that we don't duplicate work, e.g. two people picking up the same Issue.
+2. It helps avoid merge conflicts, by giving the visibility required to avoid working on the same parts of the same scripts at the same time.
+3. It improves code quality and helps us catch bugs before they hit production, through embedding code review into our workflow.
+4. It creates an audit trail both for ourselves and for others so that we have a record of any discussions that we have had on specific issues, what was concluded, and what actions were taken forward from that.
+5. It ensures clarity on which bits of code are WIP and which bits are fully tested and part of the main codebase.
