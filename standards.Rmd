@@ -1,19 +1,17 @@
 # (PART\*) Team Coding Standards {.unnumbered}
 
-# Introduction
+# Why do we need coding standards?
 
 Coding standards refer to agreed rules on how we write, format, and organise our code. 
 
 By following a set of team coding standards, we ensure that our code is consistent in quality and style across different team members. Ideally, our code should look like it's been written by one skilled developer with a consistent style and mental approach to programming.
 
-## Why do we need coding standards?
-
-### For writing code:
+## For writing code
 
 - **It reduces mental load and improves efficiency.** A significant amount of time and mental energy can be taken up by the need to make lots of small decisions e.g. how to name your variables, how to structure your files etc. We can reduce this cognitive load by front-loading the decision-making process and agreeing on some conventions as a team, then following these agreed standards every time.
 - **It helps uphold code quality**, by ensuring that we follow standards created to optimise for readability, maintainability, and scalability.
 
-### For reviewing code:
+## For reviewing code
 
 - **It makes it easier and quicker for each of us to understand code written by our fellow team members.** We all have our own idiosyncrasies in our individual coding styles, so in this way we eliminate the mental effort that would otherwise be required to first get to grips with each person's style before we can get on to actually understanding the code logic.
 - **It makes it easier for other people to understand our codebase.** This means new team members can get up and running more quickly and start contributing their own code, and external collaborators can more easily review and critique our code.
