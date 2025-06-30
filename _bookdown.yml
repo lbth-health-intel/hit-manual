@@ -9,6 +9,7 @@ rmd_files:
   [
     "index.Rmd",
     
+    "about.Rmd",
     "01-values.Rmd",
     
     "02-github.Rmd",

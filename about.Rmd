@@ -1,0 +1,14 @@
+# (PART\*) About Us {.unnumbered}
+
+# Who we are and what we do
+
+We are the Public Health Intelligence Team at the London Borough of Tower Hamlets, comprised of one Health Intelligence Lead and two Senior Analysts.
+
+We provide data and analytical support to the Public Health Division of Tower Hamlets. This includes, amongst other things:
+
+* Providing analytical support for needs assessments, including:
+  * Helping project leads scope out their data needs and develop analysis plans
+  * Identifying suitable datasets for specific projects
+  * Conducting epidemiological analyses and producing visualisations with accompanying commentary
+* Developing data products (e.g. [EDITH](https://lbthedith.shinyapps.io/edith/)) to enable colleagues and partners to easily find information and statistics about the local population to inform public health planning
+* Developing and delivering training sessions to help colleagues upskill in data analysis and public health intelligence
