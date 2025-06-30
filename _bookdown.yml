@@ -4,3 +4,17 @@ language:
     chapter_name: "Chapter "
 delete_merged_file: true
 output_dir: "docs"
+
+rmd_files:
+  [
+    "index.Rmd",
+    
+    "01-values.Rmd",
+    
+    "02-github.Rmd",
+    "03-git.Rmd",
+    
+    "04-styleguide.Rmd",
+    
+    "05-app-deployment.Rmd"
+  ]
