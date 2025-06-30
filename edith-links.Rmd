@@ -1,0 +1,4 @@
+# Links
+GitHub repo: [lbth-health-intel/edith](https://github.com/lbth-health-intel/edith)
+
+GitHub Project: [EDITH Planning](https://github.com/orgs/lbth-health-intel/projects/1)

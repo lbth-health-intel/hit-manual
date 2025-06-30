@@ -19,5 +19,6 @@ rmd_files:
     "standards.Rmd",
     "standards-styleguide.Rmd",
     
-    "edith-deployment.Rmd"
+    "edith-deployment.Rmd",
+    "edith-links.Rmd"
   ]
