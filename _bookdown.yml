@@ -14,6 +14,7 @@ rmd_files:
     "02-github.Rmd",
     "03-git.Rmd",
     
+    "standards.Rmd",
     "04-styleguide.Rmd",
     
     "05-app-deployment.Rmd"
