@@ -9,6 +9,13 @@ we-help-each-other-learn.
 we-are-kind-to-each-other.
 we-are-honest-with-each-other.
 why-do-we-need-collaborative-coding-practices
+introduction-to-version-control
+version-control
+across-time
+across-people
+what-is-git
+what-is-github
+using-git-and-github-with-r
 working-in-github
 git-workflow
 branching-strategy
