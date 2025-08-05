@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 5 Introduction to version control | The HIT Manual</title>
+<meta name="author" content="Hannah Choi">
+<meta name="description" content="In this chapter, we will introduce the concept of version control. We will also introduce Git and GitHub and explain the difference between the two.  5.1 Version control When working on a project,...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Chapter 5 Introduction to version control | The HIT Manual">
+<meta property="og:type" content="book">
+<meta property="og:description" content="In this chapter, we will introduce the concept of version control. We will also introduce Git and GitHub and explain the difference between the two.  5.1 Version control When working on a project,...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 5 Introduction to version control | The HIT Manual">
+<meta name="twitter:description" content="In this chapter, we will introduce the concept of version control. We will also introduce Git and GitHub and explain the difference between the two.  5.1 Version control When working on a project,...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">The HIT Manual</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Introduction</a></li>
+<li class="book-part">About Us</li>
+<li><a class="" href="who-we-are-and-what-we-do.html"><span class="header-section-number">1</span> Who we are and what we do</a></li>
+<li><a class="" href="our-tools.html"><span class="header-section-number">2</span> Our tools</a></li>
+<li><a class="" href="our-values.html"><span class="header-section-number">3</span> Our values</a></li>
+<li class="book-part">Collaborative Coding</li>
+<li><a class="" href="why-do-we-need-collaborative-coding-practices.html"><span class="header-section-number">4</span> Why do we need collaborative coding practices?</a></li>
+<li><a class="active" href="introduction-to-version-control.html"><span class="header-section-number">5</span> Introduction to version control</a></li>
+<li><a class="" href="working-in-github.html"><span class="header-section-number">6</span> Working in GitHub</a></li>
+<li><a class="" href="git-workflow.html"><span class="header-section-number">7</span> Git workflow</a></li>
+<li class="book-part">Team Coding Standards</li>
+<li><a class="" href="why-do-we-need-coding-standards.html"><span class="header-section-number">8</span> Why do we need coding standards?</a></li>
+<li><a class="" href="code-style-guide.html"><span class="header-section-number">9</span> Code style guide</a></li>
+<li class="book-part">EDITH</li>
+<li><a class="" href="app-deployment.html"><span class="header-section-number">10</span> App deployment</a></li>
+<li><a class="" href="links.html"><span class="header-section-number">11</span> Links</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="introduction-to-version-control" class="section level1" number="5">
+<h1>
+<span class="header-section-number">5</span> Introduction to version control<a class="anchor" aria-label="anchor" href="#introduction-to-version-control"><i class="fas fa-link"></i></a>
+</h1>
+<p>In this chapter, we will introduce the concept of version control. We will also introduce Git and GitHub and explain the difference between the two.</p>
+<div id="version-control" class="section level2" number="5.1">
+<h2>
+<span class="header-section-number">5.1</span> Version control<a class="anchor" aria-label="anchor" href="#version-control"><i class="fas fa-link"></i></a>
+</h2>
+<p>When working on a project, there will often be multiple versions of the project that exist at the same time, or at different points in time. Without a version control system, it can quickly become very confusing and unclear which version is the “real” or “final” one.</p>
+<div id="across-time" class="section level3" number="5.1.1">
+<h3>
+<span class="header-section-number">5.1.1</span> Across time<a class="anchor" aria-label="anchor" href="#across-time"><i class="fas fa-link"></i></a>
+</h3>
+<p>Consider a scenario where you are preparing a report. It is not uncommon to end up with a list of files that look something like this:</p>
+<ul>
+<li><em>report_draft.docx</em></li>
+<li><em>report_draft_final.docx</em></li>
+<li><em>report_draft_finalFINAL25Jan.docx</em></li>
+<li><em>report_draft_final2.docx</em></li>
+<li><em>report_draft_USETHISONE.docx</em></li>
+<li><em>report_draft_with_comments.docx</em></li>
+</ul>
+<p>When you look at this list, how do you tell which is the “real” final draft? And if you want to understand the evolution of the report and how it was produced, how do you tell the order in which the different versions were produced?</p>
+<p>A version control system helps keep track of the different versions over time, so you can see the chronological order in which different versions were produced, making it clear which is the latest version.</p>
+</div>
+<div id="across-people" class="section level3" number="5.1.2">
+<h3>
+<span class="header-section-number">5.1.2</span> Across people<a class="anchor" aria-label="anchor" href="#across-people"><i class="fas fa-link"></i></a>
+</h3>
+<p>If several people are working on a project at the same time, several different versions of the project files may exist at the same time, e.g. as separate collections of files on each of their computers. For example:</p>
+<ul>
+<li>Alice has made some edits to <em>intro.docx.</em>
+</li>
+<li>Ben has made some edits in a different section of <em>intro.docx</em>, as well as to <em>methods.docx</em>.</li>
+<li>Claire has made some additions to <em>methods.docx</em> in the same place as Ben.</li>
+<li>Dan has accidentally deleted <em>results.docx</em>.</li>
+</ul>
+<p>When it comes to pulling together the final report, how does the team figure out how to integrate the changes that everyone has made? How do they:</p>
+<ol style="list-style-type: decimal">
+<li>Identify and locate the changes that everyone has made?</li>
+<li>Merge the changes that Alice and Ben have made to <em>intro.docx</em>?</li>
+<li>Resolve the potentially conflicting changes that Ben and Claire have made at the same place in <em>methods.docx</em>?</li>
+<li>Determine which files should and should not exist (due to Dan’s accidental deletion)?</li>
+</ol>
+<p>A version control system helps to manage these changes, for example by establishing one set of project files as the “single source of truth” which different versions of the project files are compared to, and to which different people can suggest changes in an orderly manner.</p>
+</div>
+</div>
+<div id="what-is-git" class="section level2" number="5.2">
+<h2>
+<span class="header-section-number">5.2</span> What is Git?<a class="anchor" aria-label="anchor" href="#what-is-git"><i class="fas fa-link"></i></a>
+</h2>
+<p>Git is a version control system which is popularly used for tracking changes to code files.</p>
+<p>Information is stored as series of snapshots of the set of files, including information about the “ancestry” of each snapshot such that each snapshot can be traced all the way back to the earliest version of the project. This information is stored in Git files.</p>
+<p>To use Git, you can issue Git commands directly from the terminal. However, many people find it much easier to use a Git client which provides a nice GUI. There are many desktop applications developed for this purpose e.g. GitHub Desktop, and most IDEs such as RStudio also have a Git client.</p>
+<p>Here are some things you can do using git:</p>
+<ul>
+<li>Take a snapshot of your files in their current state (“make a commit”)</li>
+<li>Send your changed files (as captured in your snapshot) to another remote repository (“push”)</li>
+<li>Retrieve any updates from a remote repository (“pull”)</li>
+<li>Compare your current version of a file with the last snapshot (“diff”)</li>
+<li>Go back to a previous version of a file, without losing the file history (“revert”)</li>
+</ul>
+</div>
+<div id="what-is-github" class="section level2" number="5.3">
+<h2>
+<span class="header-section-number">5.3</span> What is GitHub?<a class="anchor" aria-label="anchor" href="#what-is-github"><i class="fas fa-link"></i></a>
+</h2>
+<p>GitHub is a platform for code hosting and collaboration, including hosting Git files and providing a nice interface to view and manage code changes, as well as other features for code management and project management.</p>
+<p>We use it to host our remote repos, each of which serves as the “single source of truth” for each project, even when each of our local copies of the files may differ. This code hosting functionality also enables easy code sharing with each other, like a shared DropBox for code.</p>
+<p>It also provides a nice interface for managing code changes, e.g. for creating and reviewing Pull Requests, and for looking through the git history of each file if you ever need to track down when a specific change was made or see what a file looked like at a particular point in time.</p>
+<p>We use its project management system, GitHub Project, to track and manage our development tasks. This integrates nicely with Issues and Pull Requests and helps us keep related items linked together.</p>
+</div>
+<div id="using-git-and-github-with-r" class="section level2" number="5.4">
+<h2>
+<span class="header-section-number">5.4</span> Using Git and GitHub with R<a class="anchor" aria-label="anchor" href="#using-git-and-github-with-r"><i class="fas fa-link"></i></a>
+</h2>
+<p>This guide explains how to set up your machine to use Git and GitHub with RStudio, as well as some standard workflows for working with git: <a href="https://happygitwithr.com/">Happy Git With R by Jennifer Bryan</a></p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="why-do-we-need-collaborative-coding-practices.html"><span class="header-section-number">4</span> Why do we need collaborative coding practices?</a></div>
+<div class="next"><a href="working-in-github.html"><span class="header-section-number">6</span> Working in GitHub</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#introduction-to-version-control"><span class="header-section-number">5</span> Introduction to version control</a></li>
+<li>
+<a class="nav-link" href="#version-control"><span class="header-section-number">5.1</span> Version control</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#across-time"><span class="header-section-number">5.1.1</span> Across time</a></li>
+<li><a class="nav-link" href="#across-people"><span class="header-section-number">5.1.2</span> Across people</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#what-is-git"><span class="header-section-number">5.2</span> What is Git?</a></li>
+<li><a class="nav-link" href="#what-is-github"><span class="header-section-number">5.3</span> What is GitHub?</a></li>
+<li><a class="nav-link" href="#using-git-and-github-with-r"><span class="header-section-number">5.4</span> Using Git and GitHub with R</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>The HIT Manual</strong>" was written by Hannah Choi. It was last built on 2025-08-05.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

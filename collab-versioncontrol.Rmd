@@ -1,0 +1,71 @@
+# Introduction to version control
+
+In this chapter, we will introduce the concept of version control. We will also introduce Git and GitHub and explain the difference between the two.
+
+## Version control
+
+When working on a project, there will often be multiple versions of the project that exist at the same time, or at different points in time. Without a version control system, it can quickly become very confusing and unclear which version is the "real" or "final" one.
+
+### Across time
+
+Consider a scenario where you are preparing a report. It is not uncommon to end up with a list of files that look something like this:
+
+- *report_draft.docx*
+- *report_draft_final.docx*
+- *report_draft_finalFINAL25Jan.docx*
+- *report_draft_final2.docx*
+- *report_draft_USETHISONE.docx*
+- *report_draft_with_comments.docx*
+
+When you look at this list, how do you tell which is the "real" final draft? And if you want to understand the evolution of the report and how it was produced, how do you tell the order in which the different versions were produced?
+
+A version control system helps keep track of the different versions over time, so you can see the chronological order in which different versions were produced, making it clear which is the latest version.
+
+### Across people
+
+If several people are working on a project at the same time, several different versions of the project files may exist at the same time, e.g. as separate collections of files on each of their computers. For example:
+
+- Alice has made some edits to *intro.docx.*
+- Ben has made some edits in a different section of *intro.docx*, as well as to *methods.docx*.
+- Claire has made some additions to *methods.docx* in the same place as Ben.
+- Dan has accidentally deleted *results.docx*.
+
+When it comes to pulling together the final report, how does the team figure out how to integrate the changes that everyone has made? How do they:
+
+1. Identify and locate the changes that everyone has made?
+2. Merge the changes that Alice and Ben have made to *intro.docx*?
+3. Resolve the potentially conflicting changes that Ben and Claire have made at the same place in *methods.docx*?
+4. Determine which files should and should not exist (due to Dan's accidental deletion)?
+
+A version control system helps to manage these changes, for example by establishing one set of project files as the "single source of truth" which different versions of the project files are compared to, and to which different people can suggest changes in an orderly manner.
+
+
+## What is Git?
+
+Git is a version control system which is popularly used for tracking changes to code files.
+
+Information is stored as series of snapshots of the set of files, including information about the "ancestry" of each snapshot such that each snapshot can be traced all the way back to the earliest version of the project. This information is stored in Git files.
+
+To use Git, you can issue Git commands directly from the terminal. However, many people find it much easier to use a Git client which provides a nice GUI. There are many desktop applications developed for this purpose e.g. GitHub Desktop, and most IDEs such as RStudio also have a Git client.
+
+Here are some things you can do using git:
+
+- Take a snapshot of your files in their current state ("make a commit")
+- Send your changed files (as captured in your snapshot) to another remote repository ("push")
+- Retrieve any updates from a remote repository ("pull")
+- Compare your current version of a file with the last snapshot ("diff")
+- Go back to a previous version of a file, without losing the file history ("revert")
+
+## What is GitHub?
+
+GitHub is a platform for code hosting and collaboration, including hosting Git files and providing a nice interface to view and manage code changes, as well as other features for code management and project management.
+
+We use it to host our remote repos, each of which serves as the "single source of truth" for each project, even when each of our local copies of the files may differ. This code hosting functionality also enables easy code sharing with each other, like a shared DropBox for code.
+
+It also provides a nice interface for managing code changes, e.g. for creating and reviewing Pull Requests, and for looking through the git history of each file if you ever need to track down when a specific change was made or see what a file looked like at a particular point in time.
+
+We use its project management system, GitHub Project, to track and manage our development tasks. This integrates nicely with Issues and Pull Requests and helps us keep related items linked together.
+
+## Using Git and GitHub with R
+
+This guide explains how to set up your machine to use Git and GitHub with RStudio, as well as some standard workflows for working with git: [Happy Git With R by Jennifer Bryan](https://happygitwithr.com/)
