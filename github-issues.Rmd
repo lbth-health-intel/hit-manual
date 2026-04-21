@@ -1,0 +1,61 @@
+# Issues
+
+Issues are a core feature of our workflow. They are key to how we define, track, and prioritise our development tasks.
+
+## Issues as part of our workflow
+
+Broadly, we create an Issue for every discrete piece of work identified, e.g. a bug fix, a proposed new feature, or some missing documentation.
+
+We use the comments section to discuss potential solutions and share updates with the team. This includes recording any key points from offline conversations. Each Issue thus becomes a valuable record of what decisions were made and why, which we can refer back to in the future.
+
+During sprint planning, we review and triage open Issues, agree as a team which ones to pick up in the upcoming sprint, and ensure each of the selected Issues is assigned to a team member.
+
+We keep our respective Issues updated throughout the sprint, marking them as "In Progress" or "Done" as appropriate. This helps maintain visibility across the team of what everyone is working on.
+
+## How to open an Issue
+### Title
+This should be a clear and concise summary of the Issue.
+
+Examples of good titles:
+
+Examples of bad titles:
+
+### Description
+This should be as comprehensive as possible.
+
+**If your Issue is an idea for a new feature:**
+Provide the rationale for why this feature is needed. What problem(s) does this solve and/or what benefit(s) does this bring to users?
+
+Provide an outline of the implementation.
+
+**If your Issue is a bug report:**
+Include comprehensive step-by-step instructions on how to reproduce the bug.
+
+Include a screenshot (or multiple) of the bug.
+
+If you have any ideas about what the root cause might be and/or how to fix it, include a detailed explanation of this too.
+
+### Assignees
+This indicates who will be responsible for resolving this issue. If an issue obviously falls into a specific team member's scope of responsibility, you can assign it to them. 
+
+Do not use issue assignment as a way of bringing an issue to someone's attention! Tag them in a comment instead.
+
+### Labels
+These are used to categorise issues for tracking and prioritisation.
+
+Label your issues appropriately. Most issues will fall into either "enhancement" or "bug".
+
+### Projects
+Use this to add the to a Project planning board if appropriate.
+
+For example, all EDITH-related Issues should be added to the EDITH Planning project.
+
+### Milestone
+Use this to link the issue to specific milestone if appropriate, e.g. an upcoming release.
+
+### Development
+Use this to link the issue to a branch or a pull request. This is useful for real-time tracking as well as future reference. Conveniently, the issue will be automatically closed (and marked as "Complete" in Projects) when the branch is merged or the PR is closed.
+
+
+
+

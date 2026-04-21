@@ -1,0 +1,16 @@
+# Our Principles
+
+## Methodological rigour
+We are committed to working at a high level of rigour. We ensure that we use the right tools and methods for each job, and we continuously strive to advance and improve our methods and the quality of our outputs.
+
+We are clear about the limitations of our work.
+
+We do not operate outside our scope of competence, because we understand the associated risks of producing inaccurate or poor quality outputs which may mislead or misinform our users.
+
+## Openness and transparency
+We are open about our methods, to support reproducibility, review, and constructive criticism of our work. 
+
+We are transparent about the limitations of our work.
+
+
+

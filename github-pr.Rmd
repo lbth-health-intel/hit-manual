@@ -1,0 +1,52 @@
+# How to open a pull request
+
+Pull requests are a core feature of our workflow. They ensure that all new code is reviewed by another team member before it is integrated into the codebase. This helps to catch bugs, improve code quality, and support adherence to the style guide. They also provide us with a written history of what changes were introduced into the codebase and why, for future reference.
+
+It is important to take the time to write a good pull request. A well-written pull request makes it much easier and quicker for your reviewer to review your code. A poorly-written pull request could make it take much longer, using up valuable team resources and possibly delaying other work.
+
+In this section, we describe how to write a good pull request. Remember, the goal is to make it as easy to understand as possible for your reviewer, so they can spend their time reviewing your code instead of trying to understand what you have done.
+
+## A good PR...
+
+### ...does one thing, and one thing only
+If your PR contains many unrelated changes which achieve different goals, it becomes much harder for your reviewer to understand what your code is trying to achieve.
+
+Resist the temptation to bundle many small changes into one PR! It is much better to submit multiple small PRs which are each doing one specific thing.
+
+There is an exception here for "first builds", e.g. a new feature or a new dataset being added, which may lead to a large PR containing many related changes. The key here is that they are all related under the scope of being the first build of this new element.
+
+### ...has a clear title
+The title should briefly summarise what this PR achieves and where (i.e. its scope) if appropriate.
+
+Good titles:
+- Add age-standardised prevalence to ELDB scripts
+- Add new Time tab
+
+Bad titles:
+- Bug fix (what did you fix? And where?)
+- Update Home page (what did this update achieve?)
+
+### ...has a clear and comprehensive description
+The description should provide all the relevant context for this PR. This is likely to include some or all of the following:
+- What is the main goal of this PR? What does it aim to achieve?
+- Why is this piece of work being done? Is it in response to a specific request? If so, who requested it and why?
+- What is the current state of things, and how will the work done in this PR change that?
+- Are there any (definite or potential) downstream impacts that need to be addressed or monitored?
+
+The description should also clearly list exactly what has been done in this PR. It may be helpful to write these as distinct bullet points.
+
+If you have been writing good commit messages, you may find that this ends up looking a lot like a list of your commit messages for this PR.
+
+Occasionally, if your PR is very small and can be comprehensively described in the title alone, it is fine to leave the description blank.
+
+## Issues of timing
+### Dependencies
+It is generally inadvisable to start new development work (on a new feature branch) which depends on your currently open PR being approved without further changes. This is because if your reviewer does request changes, which is often the case, you will end up spending more time and effort trying to keep your new development work updated in parallel while your PR is under review, than if you had just waited until this PR was finalised and approved. Your commit history may also become very messy due to these parallel updates, making your eventual PR harder to follow and understand.
+
+If you must do this, do your best to keep your commit history as clean as possible, and do not submit a PR for this new development work until your previous PR has been approved and merged and you have integrated the changes into your new feature branch.
+
+### Scope
+Once you have submitted your PR, do not add further commits which materially expand the scope of this PR, unless specifically requested by your reviewer. Save this for a separate PR *after* this PR has been approved and merged.
+
+If you must make additional changes which are beyond what has been discussed with your reviewer, write a comment clearly summarising what you have done and why. This provides clarity for your reviewer as well as for future reference so that it's easier to follow what has been done in this PR.
+
